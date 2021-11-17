@@ -1,0 +1,11 @@
+<launch>
+
+    <param name="is_simulator" type="bool" value="false" />
+    <param name="perception_method" type="str" value="pointcloud" />
+
+    <include file="$(find tri_star)/config/config.xml" />
+
+    <include file="$(find tri_star)/launch/azure_open3d.launch" />
+    <node pkg="tri_star" name="scan" type="scan_object_point_cloud.py" output="screen" />
+
+</launch>

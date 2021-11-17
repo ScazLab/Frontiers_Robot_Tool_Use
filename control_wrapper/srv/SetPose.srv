@@ -1,0 +1,6 @@
+geometry_msgs/Pose      request_pose
+
+---
+
+bool is_reached
+geometry_msgs/Pose      response_pose

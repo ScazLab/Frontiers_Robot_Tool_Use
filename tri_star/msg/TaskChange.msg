@@ -1,0 +1,6 @@
+# e.g., push, screwdriver, hammer tasks...
+int32 TYPE_POSE_CHANGE = 0
+# e.g., cutting, drawing tasks...
+int32 TYPE_NO_POSE_CHANGE = 1
+
+int32 task

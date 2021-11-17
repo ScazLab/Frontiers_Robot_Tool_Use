@@ -1,0 +1,16 @@
+<launch>
+
+    <rosparam param = "workspace_min_boundary"> [.15, -1.0, -0.25] </rosparam>
+
+    <rosparam param = "workspace_max_boundary"> [1.0, 1.0, 1.0] </rosparam>
+    <rosparam param = "sub_cam_matrix">[-0.8116869700172583, 0.46685587804876905, -0.3510126092258167, 1.1863810722253392, 0.5506158814669188, 0.41105747297165784, -0.7265355497087279, 0.8250051467519042, -0.194901035863361, -0.7829925561877764, -0.5907082555491509, 0.3893254345294133, 0.0, 0.0, 0.0, 1.0]</rosparam>
+    <rosparam param = "master_cam_matrix">[0.7860740054622499, 0.3717336605573091, -0.4938640942052762, 1.1302218810026063, 0.6170996449670947, -0.5181062673150465, 0.5922448175799898, -0.8853884745734435, -0.03571674842451673, -0.770311613165434, -0.6366665787556679, 0.35564898362049996, 0.0, 0.0, 0.0, 1.0]
+
+
+    <rosparam param = "joint_names"> ["right_s0", "right_s1", "right_e0", "right_e1", "right_w0", "right_w1", "right_w2"] </rosparam>
+    <rosparam param = "workspace_min_boundary"> [-.90, -.60, -0.25] </rosparam>
+    <rosparam param = "workspace_max_boundary"> [-0.13, .60, 1.0] </rosparam>
+
+</rosparam>
+
+</launch>

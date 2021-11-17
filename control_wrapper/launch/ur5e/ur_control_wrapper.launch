@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="simulator_mode" default="false"/>
+    <param name="sim" value="$(arg simulator_mode)"/>
+  
+    <node pkg="control_wrapper" name="ur_control" type="ur_control.py" output="screen" />
+
+</launch>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find ur_robot_driver)/launch/sim_ur5e_cam_2f85_bringup.launch" />
+
+    <include file="$(find ur5e_cam_2f85_moveit_config)/launch/ur5e_cam_2f85_moveit_planning_execution.launch" />
+
+    <include file="$(find ur_control_wrapper)/launch/ur_control_wrapper.launch" >
+        <arg name="simulator_mode" value="true" />
+    </include>
+
+</launch>
+

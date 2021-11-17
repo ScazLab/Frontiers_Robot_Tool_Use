@@ -1,0 +1,11 @@
+<launch>
+
+    <param name="is_simulator" type="bool" value="False" />
+    <param name="perception_method" type="str" value="pointcloud" /> <!-- can be "aruco" of "pointcloud" -->
+
+    <include file="$(find tri_star)/config/config.xml" />
+    <node pkg="tri_star" name="object_monitor" type="object_monitor.py" output="screen" />
+
+    <node pkg="tri_star" name="crow_tool" type="crow_tool.py" output="screen" />
+
+</launch>

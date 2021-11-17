@@ -1,0 +1,7 @@
+geometry_msgs/Pose      start
+geometry_msgs/Pose      end
+float32                step
+
+---
+
+geometry_msgs/Pose[]      poses

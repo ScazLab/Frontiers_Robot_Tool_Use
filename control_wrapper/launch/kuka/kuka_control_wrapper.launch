@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  
+    <node pkg="control_wrapper" name="kuka_control" type="kuka_control.py" output="screen" />
+
+</launch>
+

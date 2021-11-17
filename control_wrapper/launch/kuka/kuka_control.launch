@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+	<param name="sim" value="false"/>
+
+    <include file="$(find youbot_driver_ros_interface)/launch/youbot_driver_arm_only.launch" />
+
+    <include file="$(find youbot_moveit)/launch/move_group.launch" />
+
+    <include file="$(find control_wrapper)/launch/kuka/kuka_control_wrapper.launch" />
+
+</launch>

@@ -1,0 +1,27 @@
+#+TITLE:     Tool Substitution 
+#+AUTHOR:    Jake Brawer & Meiying Qin
+
+* Description 
+  So far this package primarily does two things:
+   - Creates a minimum bounding box around 3D pointcloud
+   - Measures shape similarity between to pointclouds via hamming distance
+     
+  References I used:
+  
+   - https://stackoverflow.com/questions/55529371/opencv-shape-matching-between-two-similar-shapes
+   - https://gis.stackexchange.com/questions/22895/finding-minimum-area-rectangle-for-given-points
+   - https://www.cse.wustl.edu/~taoju/cse554/lectures/lect07_Alignment.pdf
+   - https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK5/NODE196.HTM
+   - http://jamesgregson.blogspot.com/2011/03/latex-test.html
+  
+* Examples
+  
+Run
+
+#+BEGIN_SRC shell
+ python examples.py <tool>
+#+END_SRC
+
+Where tool \in {hammer, saw, guitar}, to get visualizations of bounding box for these tools.
+
+

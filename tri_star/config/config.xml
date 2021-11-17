@@ -1,0 +1,38 @@
+<launch>
+    <arg name="robot_platform_type" value="ur" /> <!--kuka, ur or baxter -->
+
+    <param name="data_learning_robot_platform_type" value="ur" />
+
+    <!--  If true, only 4 points are used in trajecotry, otherwise inrerpolates many points.-->
+    <param name="is_testing" type="bool" value="true" />
+
+    <param name="is_multiple_computers" type="bool" value="false" />
+
+    <param name="master_config_file_name" type="str" value="$(find tri_star)/config/azure_master_config.json" />
+    <param name="sub_config_file_name" type="str" value="$(find tri_star)/config/azure_sub_config.json" />
+
+    <param name="perception_repeatition" type="int" value="5" />
+    <param name="perception_tip_number" type="int" value="1" />
+
+    <param name="noise_position" type="double" value="0.0" />
+    <param name="noise_orientation" type="double" value="0.0" />
+
+    <param name="robot_platform_type" type="str" value="$(arg robot_platform_type)"/>
+    <param name="robot_platform_side" type="str" value="left" />
+
+    <rosparam param = "candidate_tasks"> ["push", "knock", "stir", "cut", "scoop", "draw", "screw"] </rosparam>
+
+    <param name="package_dir" type="str" value="$(find tri_star)" />
+
+    <param name="learned_data_dir" type="str" value="learned_samples" />
+
+    <param name="pointcloud_dir" type="str" value="$(find tri_star)/pointcloud/"/>
+    <param name="pointcloud_raw_dir" type="str" value="$(find tri_star)/pointcloud/raws/"/>
+
+    <param name="goal_mesh_dir" type="str" value="$(find tri_star)/pointcloud/goals" />
+
+    <param name="tool_mesh_dir" type="str" value="$(find tri_star)/pointcloud/tools" />
+
+    <include file="$(find tri_star)/config/$(arg robot_platform_type)_config.xml" />
+
+</launch>

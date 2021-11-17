@@ -1,0 +1,7 @@
+geometry_msgs/Pose      request_pose
+
+---
+
+bool could_reach
+float32 joint_changes
+sensor_msgs/JointState     response_joints

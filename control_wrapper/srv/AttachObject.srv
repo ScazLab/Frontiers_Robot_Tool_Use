@@ -1,0 +1,13 @@
+string                  object_name
+geometry_msgs/Pose      pose
+geometry_msgs/Vector3   size
+string                  mesh_filename
+
+int32                   object_type
+int32 TYPE_BOX = 1
+int32 TYPE_CYLINDER = 2
+int32 TYPE_MESH = 3
+
+---
+
+bool is_success

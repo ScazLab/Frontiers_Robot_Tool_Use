@@ -1,0 +1,10 @@
+<launch>
+
+    <param name="is_simulator" type="bool" value="false" />
+    <param name="perception_method" type="str" value="pointcloud" />
+
+    <include file="$(find tri_star)/config/config.xml" />
+
+    <node pkg="tri_star" name="scan" type="process_pointclouds.py" output="screen" />
+
+</launch>

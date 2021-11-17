@@ -1,0 +1,24 @@
+<launch>
+
+    <rosparam param = "master_cam_matrix"> [-0.6960851745388561, 0.03951199511871629, 0.7168711404631589, -0.8340570232357002, -0.7179151153951175, -0.04937210237760606, -0.6943776224749981, 0.7733782626700997, 0.007957190108720388, -0.9979985960654222, 0.06273344703601082, 0.35414098008700523, 0.0, 0.0, 0.0, 1.0] </rosparam>
+
+<!--     <rosparam param = "workspace_min_boundary"> [-0.35, -0.68, -0.05] </rosparam>
+    <rosparam param = "workspace_max_boundary"> [0.35, -0.17, 1.0] </rosparam> -->
+
+    <rosparam param = "workspace_min_boundary"> [-1.0, -0.68, -0.05] </rosparam>
+    <rosparam param = "workspace_max_boundary"> [0.35, -0.17, 1.0] </rosparam>
+
+    <rosparam param = "joint_names"> ['arm_joint_1', 'arm_joint_2', 'arm_joint_3', 'arm_joint_4', 'arm_joint_5'] </rosparam>
+
+    <rosparam param = "tool_perception_workspace_min_boundary"> [-0.8, -0.6, 0.0] </rosparam>
+    <rosparam param = "tool_perception_workspace_max_boundary"> [0.8, 0.6, 0.8] </rosparam>
+
+    <rosparam param = "tool_robot_boundary"> 0.4 </rosparam>
+
+    <rosparam param = "scan_tool_perception_workspace_min_boundary"> [-0.3, -0.3, 0.0] </rosparam>
+    <rosparam param = "scan_tool_perception_workspace_max_boundary"> [0.3, 0.3, 1.0] </rosparam>
+
+    <!-- <rosparam param = "scan_tool_robot_boundary"> 0.48 </rosparam> -->
+    <rosparam param = "scan_tool_robot_boundary"> -0.5 </rosparam>
+
+</launch>

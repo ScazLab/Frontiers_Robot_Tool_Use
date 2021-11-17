@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find tri_star)/config/config.xml" />-->
+
+    <node pkg="tri_star" name="normalize_pc" type="normalize_pc.py" output="screen" />
+
+</launch>

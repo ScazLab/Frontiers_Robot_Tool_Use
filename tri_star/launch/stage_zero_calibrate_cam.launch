@@ -1,0 +1,17 @@
+<launch>
+
+    <include file="$(find tri_star)/launch/aruco_kinect_calibration_perception.launch" />
+
+    <node pkg="tri_star" name="aruco_3d_perception" type="aruco_3d_perception.py" output="screen" />
+
+    <include file="$(find tri_star)/config/config.xml" />
+
+    <param name="clear_data" type="bool" value="True" />
+    <param name="get_data" type="bool" value="True" />
+    <param name="reference_frame_name" type="str" value="robot" />
+    <param name="second_frame_name" type="str" value="usbcam_world" />
+    <param name="file_name" type="str" value="$(find tri_star)/data/cam_world_calibrate_array.npz" />
+
+    <node pkg="tri_star" name="calibrate_camera_robot" type="calibrate_camera_robot.py" output="screen" />
+
+</launch>

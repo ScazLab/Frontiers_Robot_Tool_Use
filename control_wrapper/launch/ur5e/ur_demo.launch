@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find control_wrapper)/launch/ur5e/ur_control_wrapper.launch" />
+
+    <node pkg="control_wrapper" name="ur_demo" type="ur_demo.py" output="screen" />
+
+</launch>
+

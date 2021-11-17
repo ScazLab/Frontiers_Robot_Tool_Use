@@ -1,0 +1,6 @@
+sensor_msgs/JointState     joints
+
+---
+
+geometry_msgs/Pose      pose
+

@@ -1,0 +1,6 @@
+geometry_msgs/Pose[]      trajectory
+
+---
+
+bool is_reached
+geometry_msgs/Pose      final_pose

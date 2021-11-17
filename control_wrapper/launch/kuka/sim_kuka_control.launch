@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="sim" value="true"/>
+
+    <include file="$(find youbot_gazebo_robot)/launch/youbot_arm_only.launch" />
+
+    <include file="$(find youbot_moveit)/launch/move_group.launch" />
+
+    <include file="$(find control_wrapper)/launch/kuka/kuka_control_wrapper.launch" />
+
+</launch>
+

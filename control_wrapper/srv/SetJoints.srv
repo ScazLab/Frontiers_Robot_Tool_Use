@@ -1,0 +1,6 @@
+sensor_msgs/JointState     request_joints
+
+---
+
+bool is_reached
+sensor_msgs/JointState     response_joints

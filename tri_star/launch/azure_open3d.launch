@@ -1,0 +1,5 @@
+<launch>
+
+  <param name="master_config_file_name" type="str" value="$(find tri_star)/config/azure_master_config.json" />
+
+</launch>
