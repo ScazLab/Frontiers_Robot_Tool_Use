@@ -8,7 +8,7 @@ This is the source code for this paper "Rapidly Learning Generalizable and Robot
 
 *Qin M, *Brawer J and Scassellati B (2021) Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks. Front. Robot. AI 8:726463. doi: 10.3389/frobt.2021.726463
 
-* Equal contribution
+\* Equal contribution
 
 ## Overview
 
