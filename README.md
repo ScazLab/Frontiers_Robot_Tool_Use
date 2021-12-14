@@ -6,15 +6,15 @@ This is the source code for this paper "Rapidly Learning Generalizable and Robot
 
 @ARTICLE{qin2021rapidly, \
    AUTHOR={Qin, Meiying and Brawer, Jake and Scassellati, Brian}, \
-	 TITLE={Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks}, \     
-	 JOURNAL={Frontiers in Robotics and AI}, \
-	 VOLUME={8}, \   
+   TITLE={Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks}, \     
+   JOURNAL={Frontiers in Robotics and AI}, \
+   VOLUME={8}, \   
    PAGES={380}, \
-	 YEAR={2021}, \
+   YEAR={2021}, \
    PUBLISHER={Frontiers}
-	 URL={https://www.frontiersin.org/article/10.3389/frobt.2021.726463}, \
-	 DOI={10.3389/frobt.2021.726463}, \
-	 ISSN={2296-9144}
+   URL={https://www.frontiersin.org/article/10.3389/frobt.2021.726463}, \
+   DOI={10.3389/frobt.2021.726463}, \
+   ISSN={2296-9144} \
 }
 
 ## Publication
