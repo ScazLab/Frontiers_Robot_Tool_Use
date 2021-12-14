@@ -6,9 +6,9 @@ This is the source code for this paper "Rapidly Learning Generalizable and Robot
 
 @ARTICLE{qin2021rapidly, \
     AUTHOR={Qin, Meiying and Brawer, Jake and Scassellati, Brian}, \
-    TITLE={Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks}, \     
+    TITLE={Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks}, \
     JOURNAL={Frontiers in Robotics and AI}, \
-    VOLUME={8}, \   
+    VOLUME={8}, \
     PAGES={380}, \
     YEAR={2021}, \
     PUBLISHER={Frontiers}, \
