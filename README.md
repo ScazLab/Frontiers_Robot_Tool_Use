@@ -5,16 +5,16 @@ This project developed a framework that learns tool-use rapidly (Star 1), genera
 This is the source code for this paper "Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks". Please cite the paper if you use the source code or part of it.
 
 @ARTICLE{qin2021rapidly, \
-   AUTHOR={Qin, Meiying and Brawer, Jake and Scassellati, Brian}, \
-   TITLE={Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks}, \     
-   JOURNAL={Frontiers in Robotics and AI}, \
-   VOLUME={8}, \   
-   PAGES={380}, \
-   YEAR={2021}, \
-   PUBLISHER={Frontiers}
-   URL={https://www.frontiersin.org/article/10.3389/frobt.2021.726463}, \
-   DOI={10.3389/frobt.2021.726463}, \
-   ISSN={2296-9144} \
+    AUTHOR={Qin, Meiying and Brawer, Jake and Scassellati, Brian}, \
+    TITLE={Rapidly Learning Generalizable and Robot-Agnostic Tool-Use Skills for a Wide Range of Tasks}, \     
+    JOURNAL={Frontiers in Robotics and AI}, \
+    VOLUME={8}, \   
+    PAGES={380}, \
+    YEAR={2021}, \
+    PUBLISHER={Frontiers}, \
+    URL={https://www.frontiersin.org/article/10.3389/frobt.2021.726463}, \
+    DOI={10.3389/frobt.2021.726463}, \
+    ISSN={2296-9144} \
 }
 
 ## Publication
